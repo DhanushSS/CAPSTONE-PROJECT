@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0, 0);
+@import 'https://fonts.googleapis.com/css?family=Do+Hyeon';
+html {
+    scroll-behavior: smooth;
+}
+
+.pp{
+    color: red;
+}
+
+.ppp{
+    color: red;
+}
+
+
+
+.imoage{
+    margin-left: 1800px;
+    margin-top: -300px;
+  
+}
+.image{
+      margin-left: 1800px;
+      margin-top: -400px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    size: 3em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+
+
+
+
+
+
+.title {
+    font-size: 5.6rem;
+    font-family: 'Lobster', cursive;
+}
+
+.wrapper {
+    background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+    color: #eee;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+    100% {
+        background-position: 0px -3000px;
+    }
+}
+
+.memes{
+    display: flex;
+    flex-wrap: wrap;
+   
+     margin: auto;
+}
+ 
+.social_media>h3 {
+    font-size: 6em;
+    color: cyan;
+}
+
+ }
+
+
+
+
+
+.imhage{
+       margin-left: 1800px;
+       margin-top: -200px;
+}
+.liz{
+    font-size: 3em;
+    color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 1541px;
+
+        clear: both;
+}
+
+  /* Clearing floats */
+  .cf:before,
+  .cf:after {
+      content: " ";
+      display: table;
+  }
+
+  .cf:after {
+      clear: both;
+  }
+
+  .cf {
+      *zoom: 1;
+  }
+
+  /* Mini reset, no margins, paddings or bullets */
+  .menu,
+  .submenu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+  /* Main level */
+  .menu {
+      margin: 50px auto;
+      width: 800px;
+      /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
+      width: -moz-fit-content;
+      width: -webkit-fit-content;
+      width: fit-content;
+  }
+
+  .menu>li {
+      background: #34495e;
+      float: left;
+      position: relative;
+      transform: skewX(25deg);
+  }
+
+  .menu a {
+      display: block;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: Arial, Helvetica;
+      font-size: 14px;
+  }
+
+  .menu li:hover {
+      background: #e74c3c;
+  }
+
+  .menu>li>a {
+      transform: skewX(-25deg);
+      padding: 1em 2em;
+  }
+
+  /* Dropdown */
+  .submenu {
+      position: absolute;
+      width: 200px;
+      left: 50%;
+      margin-left: -100px;
+      transform: skewX(-25deg);
+      transform-origin: left top;
+  }
+
+  .submenu li {
+      background-color: #34495e;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .submenu>li>a {
+      padding: 1em 2em;
+  }
+
+  .submenu>li::after {
+      content: '';
+      position: absolute;
+      top: -125%;
+      height: 100%;
+      width: 100%;
+      box-shadow: 0 0 50px rgba(0, 0, 0, .9);
+  }
+
+  /* Odd stuff */
+  .submenu>li:nth-child(odd) {
+      transform: skewX(-25deg) translateX(0);
+  }
+
+  .submenu>li:nth-child(odd)>a {
+      transform: skewX(25deg);
+  }
+
+  .submenu>li:nth-child(odd)::after {
+      right: -50%;
+      transform: skewX(-25deg) rotate(3deg);
+  }
+
+  /* Even stuff */
+  .submenu>li:nth-child(even) {
+      transform: skewX(25deg) translateX(0);
+  }
+
+  .submenu>li:nth-child(even)>a {
+      transform: skewX(-25deg);
+  }
+
+  .submenu>li:nth-child(even)::after {
+      left: -50%;
+      transform: skewX(25deg) rotate(3deg);
+  }
+
+  /* Show dropdown */
+  .submenu,
+  .submenu li {
+      opacity: 0;
+      visibility: hidden;
+  }
+
+  .submenu li {
+      transition: .2s ease transform;
+  }
+
+  .menu>li:hover .submenu,
+  .menu>li:hover .submenu li {
+      opacity: 1;
+      visibility: visible;
+  }
+
+  .menu>li:hover .submenu li:nth-child(even) {
+      transform: skewX(25deg) translateX(15px);
+  }
+
+  .menu>li:hover .submenu li:nth-child(odd) {
+      transform: skewX(-25deg) translateX(-15px);
+  }
+
+  .bee>h3 {
+      font-size: 5em;
+      color: cyan;
+  }
+
+  .bee>p {
+      font-size: 3em;
+      color: white;
+  }
+
+  .bee>ul {
+      color: white;
+      font-size: 3em;
+  }
+
+
